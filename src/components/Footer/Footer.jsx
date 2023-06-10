@@ -52,7 +52,7 @@ export default function Footer() {
                   </a>
                 </li>
               </ul>
-              <section className="settings">
+              <section className="settings ">
                 <div className="settings_locale">
                   <button className="selection">
                     <span>
