@@ -1,0 +1,27 @@
+.carousel {
+  position: relative;
+  img {
+    filter: grayscale(30%) contrast(50%);
+    &:hover {
+      filter: grayscale(0%) contrast(100%);
+    }
+  }
+  .text {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    display: block;
+    font-size: 130px;
+    color: whitesmoke;
+    font-weight: 600;
+  }
+  .text_1 {
+    position: absolute;
+    top: 550px;
+    left: 50px;
+    display: block;
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 600;
+  }
+}

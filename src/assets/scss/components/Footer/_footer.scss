@@ -1,0 +1,113 @@
+.footer {
+  .footer_warpper {
+    padding: 24px 0 24px 0;
+    .footer_row {
+      padding: 0 32px;
+      @media only screen and (min-width: 1160px) {
+        margin: 0 auto;
+        max-width: 1400px;
+      }
+      .footer_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        border-top: 1px solid #e4e5e7;
+        padding: 16px 0;
+        .left {
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+          .logo_footer {
+          }
+          .copyright {
+            font-size: 14px;
+            color: #b5b6ba;
+            // margin-left: 24px;
+          }
+        }
+        .right {
+          display: flex;
+          align-items: center;
+
+          .social {
+            display: flex;
+            padding-right: 32px !important;
+            margin-bottom: 0;
+
+            li {
+              margin-right: 24px;
+              a {
+                .icon {
+                  width: 20px;
+                  height: 20px;
+                  color: #74767e;
+                  padding: 2px;
+                  font-size: 18px;
+                }
+                &:hover {
+                  .icon {
+                    color: white !important;
+                  }
+                  background-color: #78a7a0 !important;
+                  border-radius: 50%;
+                  padding: 8px;
+                  margin: -8px;
+
+                  transition: background-color 0.2s;
+                }
+              }
+            }
+          }
+          .settings {
+            display: flex;
+            align-items: center;
+            .settings_locale {
+              margin-right: 4px;
+              .selection {
+                padding: 8px 12px;
+                border: none;
+                background: none;
+                &:hover {
+                  .fa-solid,
+                  .fas {
+                    color: #f5f5f5;
+                  }
+                  .text {
+                    color: #f5f5f5;
+                  }
+                  background-color: #78a7a0 !important;
+                  border-radius: 54px;
+                  color: #404145;
+
+                  transition: background-color 0.2s;
+                }
+                span {
+                  padding-right: 8px;
+                  color: #74767e;
+                  font-weight: 600;
+                }
+              }
+            }
+            .button {
+              width: 32px;
+              height: 32px;
+              border: 1px solid #74767e;
+              border-radius: 50px;
+              background: #fff;
+              color: #7e7e7e;
+              &:hover {
+                .text {
+                  color: #f5f5f5;
+                }
+                background-color: #78a7a0 !important;
+                border: none;
+                color: #404145;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
