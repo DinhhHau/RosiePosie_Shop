@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/img/logo1.jpg";
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer container-fluid">
       <div className="footer_warpper">
         <div className="footer_row">
           <div className="footer_bottom">
@@ -10,7 +10,9 @@ export default function Footer() {
               <span className="logo_footer">
                 <img width={250} height={100} src={logo} alt="..." />
               </span>
-              <span className="copyright text-trunc">© Since 2023</span>
+              <span className="copyright text-dark text-trunc">
+                © Since 2023
+              </span>
             </div>
             <div className="right">
               <ul className="social">

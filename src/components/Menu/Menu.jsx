@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Menu() {
   return (
-    <div className="category">
+    <div className="category container-fluid">
       <ul className="d-flex menu">
         <li className="mx-4 fs-5">
           <NavLink to={`/home`}>Giới Thiệu</NavLink>
