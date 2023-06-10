@@ -9,7 +9,7 @@ export default function Menu() {
           <NavLink to={`/home`}>Giới Thiệu</NavLink>
         </li>
         <li className="mx-4 fs-5">
-          <NavLink to="/nike">Túi</NavLink>
+          <NavLink to="/tui">Túi</NavLink>
         </li>
         <li className="mx-4 fs-5">
           <NavLink to="/adidas">Nón</NavLink>

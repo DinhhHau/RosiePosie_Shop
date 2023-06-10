@@ -1,0 +1,40 @@
+.container_card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100% !important;
+  .card {
+    width: 32%;
+    width: calc(30%-10px);
+    transition: all 0.3s ease-out;
+    margin-left: 10px;
+    .row {
+      .col-md-4 {
+        img {
+          transition: all ease-in-out 0.5s;
+          height: 100%;
+        }
+      }
+      .col-md-8 {
+        .card-body {
+          .card-title {
+          }
+          .card-text {
+          }
+          .card-text-bot {
+            .text-muted {
+            }
+          }
+        }
+      }
+    }
+    &:hover {
+      .img {
+        transform: scale(0.9);
+      }
+      transform: translateY(-5px);
+      box-shadow: 0 10px 14px 0 rgba(97, 221, 180, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+  }
+}
