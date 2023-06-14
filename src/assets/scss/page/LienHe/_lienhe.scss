@@ -1,14 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;800&display=swap");
 
 .section {
-  background-image: url(http://mauweb.monamedia.net/noithatbanghe/wp-content/uploads/2018/03/unsplash18-4-of-5.jpg);
   background-size: cover;
-  padding: 55px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.33)
+    ),
+    url("https://i.pinimg.com/originals/f5/10/b9/f510b99e0fdb77386b5ce33a2087207b.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 105px;
   .bg_section {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
     background-color: #f6f6f6f6;
     border-radius: 30px;
     height: max-content;
     opacity: 0.87;
+    padding-top: 20px;
     .grid_top {
       justify-content: space-around;
       padding: 35px 25px;
@@ -44,11 +55,10 @@
       }
     }
     .contact {
-      margin-top: 100px;
+      margin-top: 40px;
       .grid_bot {
         .left {
           .content {
-            border-right: 1px dashed darkgray;
             .text {
               margin-bottom: 10px;
               text-align: center;
@@ -61,23 +71,39 @@
                 margin-top: 20px;
                 font-size: 16px;
                 color: #1c1c1c;
+                border-bottom: 1px solid darkgray;
               }
             }
           }
         }
         .mid {
+          padding: 0 0 0 24px;
           .content {
+            border-left: 1px dashed darkslategray;
+            border-right: 1px dashed darkslategray;
             .img {
             }
             .form {
-              d-flex {
+              .d-flex {
+                .form_dang_ky {
+                  padding: 6px 5px;
+                }
+                .btn {
+                  background-color: black;
+                  color: white;
+                  &:hover {
+                    background-color: white;
+                    color: black;
+                    border: 1px solid black;
+                  }
+                }
               }
             }
           }
         }
         .right {
           .content {
-            border-left: 1px dashed darkgray;
+            // border-left: 1px dashed darkgray;
             padding-left: 5px;
             .text-center {
               margin-bottom: 10px;
@@ -91,6 +117,7 @@
                 margin-top: 20px;
                 font-size: 16px;
                 color: #1c1c1c;
+                border-bottom: 1px solid darkgray;
                 i {
                   margin-right: 5px;
                 }

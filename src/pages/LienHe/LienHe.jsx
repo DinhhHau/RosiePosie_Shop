@@ -91,7 +91,7 @@ export default function LienHe() {
                   <li className="li">Trang chủ</li>
                   <li className="li">Về chúng tôi</li>
                   <li className="li">Liên hệ</li>
-                  {/* <NavLink to={""}></NavLink> */}
+                  <NavLink to="tel:0898084812">0898084812</NavLink>
                 </ul>
               </div>
             </Grid>
@@ -100,6 +100,11 @@ export default function LienHe() {
                 <div className="img">
                   <img className="w-50" src={logo} alt="" />
                 </div>
+                <div className="lorem p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                  quasi unde quisquam fuga labore quidem doloribus tenetur est
+                  blanditiis deserunt.
+                </div>
                 <div className="form">
                   <form className="d-flex flex-column align-items-center">
                     <input
@@ -107,14 +112,19 @@ export default function LienHe() {
                       name="email"
                       value=""
                       size="60"
-                      class="form_dang_ky"
+                      className="form_dang_ky"
                       id="email"
                       aria-required="true"
                       aria-invalid="false"
                       placeholder="Email ..."
                     />
                     <br />
-                    <input type="submit" value="Đăng ký" id="btn-gui" />
+                    <input
+                      className="btn"
+                      type="submit"
+                      value="Đăng ký"
+                      id="btn-gui"
+                    />
                   </form>
                 </div>
               </div>
