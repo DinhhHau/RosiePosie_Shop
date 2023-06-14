@@ -3,6 +3,7 @@ import { Button, Checkbox, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import logo from "../../assets/img/logo.jpg";
 
 const onFinish = (values: any) => {
   console.log("Success:", values);
@@ -96,7 +97,9 @@ export default function LienHe() {
             </Grid>
             <Grid item xs={6} className="mid">
               <div className="text-center content">
-                <div className="img"></div>
+                <div className="img">
+                  <img className="w-50" src={logo} alt="" />
+                </div>
                 <div className="form">
                   <form className="d-flex flex-column align-items-center">
                     <input
@@ -121,15 +124,15 @@ export default function LienHe() {
                 <div className="text-center">Thông tin liên hệ</div>
                 <ul className="text-left ul">
                   <li className="li">
-                    <i className="fa-solid fa-location-dot" />
-                    <span className="ms-1">Jo Gradent's</span>
+                    <i className=" ms-2 fa-solid fa-location-dot" />
+                    <span className="ms-1">Nhà của toy ^.^</span>
                   </li>
                   <li className="li">
-                    <i className="fa-solid fa-envelope" />
-                    <span className="ms-1">JennieDang_2k1_sociu@gmail.com</span>
+                    <i className=" ms-2 fa-solid fa-envelope" />
+                    <span className="ms-1">Ydang454@gmail.com</span>
                   </li>
                   <li className="li">
-                    <i className="fa-solid fa-phone" />
+                    <i className=" ms-2 fa-solid fa-phone" />
                     <span className="ms-1">0889 268 205</span>
                   </li>
                 </ul>
