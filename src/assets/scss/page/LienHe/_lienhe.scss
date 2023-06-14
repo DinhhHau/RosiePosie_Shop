@@ -67,11 +67,14 @@
               color: #2d2d2d;
             }
             .ul {
-              .li {
-                margin-top: 20px;
-                font-size: 16px;
-                color: #1c1c1c;
-                border-bottom: 1px solid darkgray;
+              .a {
+                text-decoration: none;
+                .li {
+                  margin-top: 20px;
+                  font-size: 16px;
+                  color: #1c1c1c;
+                  border-bottom: 1px solid darkgray;
+                }
               }
             }
           }
@@ -118,6 +121,10 @@
                 font-size: 16px;
                 color: #1c1c1c;
                 border-bottom: 1px solid darkgray;
+                .tel {
+                  color: #1c1c1c;
+                  text-decoration: none;
+                }
                 i {
                   margin-right: 5px;
                 }

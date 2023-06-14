@@ -88,10 +88,15 @@ export default function LienHe() {
               <div className="content">
                 <div className="text">Điều Hướng</div>
                 <ul className="ul">
-                  <li className="li">Trang chủ</li>
-                  <li className="li">Về chúng tôi</li>
-                  <li className="li">Liên hệ</li>
-                  <NavLink to="tel:0898084812">0898084812</NavLink>
+                  <NavLink className="a" to="/home">
+                    <li className="li">Trang chủ</li>
+                  </NavLink>
+                  <NavLink className="a" to="/home">
+                    <li className="li">Về chúng tôi</li>
+                  </NavLink>
+                  <NavLink className="a" to="/lienhe">
+                    <li className="li">Liên hệ</li>
+                  </NavLink>
                 </ul>
               </div>
             </Grid>
@@ -143,7 +148,11 @@ export default function LienHe() {
                   </li>
                   <li className="li">
                     <i className=" ms-2 fa-solid fa-phone" />
-                    <span className="ms-1">0889 268 205</span>
+                    <span className="ms-1">
+                      <NavLink className="tel" to="tel:0889268205">
+                        0889 268 205
+                      </NavLink>
+                    </span>
                   </li>
                 </ul>
               </div>
