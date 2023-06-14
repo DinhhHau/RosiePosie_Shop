@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Menu from "./components/Menu/Menu";
 import Tui from "./pages/Tui/Tui";
+import LienHe from "./pages/LienHe/LienHe";
 //
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -23,6 +24,7 @@ root.render(
         <Route index element={<Home />}></Route>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/tui" element={<Tui />}></Route>
+        <Route path="/lienhe" element={<LienHe />}></Route>
       </Route>
     </Routes>
     <Footer />

@@ -18,7 +18,7 @@ export default function Menu() {
           <NavLink to="/converse">Móc Khoá</NavLink>
         </li>
         <li className="mx-4 fs-5">
-          <NavLink to="/converse">Liên Hệ</NavLink>
+          <NavLink to="/lienhe">Liên Hệ</NavLink>
         </li>
       </ul>
     </div>
